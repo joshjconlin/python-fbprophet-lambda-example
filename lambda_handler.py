@@ -21,6 +21,4 @@ forecast.to_csv("./output/peyton_manning.csv", encoding='utf-8', index=False)
 #         'message': message
 #     }
 
-# to run
-# docker run --rm -it -v "${PWD}":/var/task lambci/lambda:build-python3.6 bash
-# . venv/bin/activate
+
